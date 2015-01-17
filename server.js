@@ -3,7 +3,7 @@ var express = require('express');
 var site = require('./routes/site');
 var gist = require('./routes/gist');
 
-var port = process.env.PORT || 8080;
+var port = proceprocess.env.OPENSHIFT_NODEJS_PORT || 8080;
 
 var app = express();
 app.set('views', __dirname + '/views');
