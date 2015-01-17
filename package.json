@@ -24,4 +24,8 @@
     "should": "^4.4.2",
     "supertest": "^0.15.0"
   }
+  "scripts": {
+  "start": "node server.js"
+  },
+"main": "server.js"
 }
